@@ -5,74 +5,135 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Colmar Academy</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/style.css'>
     <script src='main.js'></script>
 </head>
 <body>
+
+    <!-- header -->
+
     <header class="heading">
         <nav class="nav-bar">
-            <img src="css/images/ic-logo.svg">
-
+        
             <div class="nav-desktop">
-                    <h4>COLMARACADEMY</h4>
+                <div class="nav-left">
+                    <img src="/css/images/ic-logo.svg">
+                    <span class="logo"><b>COLMAR</b>ACADEMY</span>
+                </div>
+
+                <div class="nav-right">
                     <a href="#">On Campus</a>
                     <a href="#">Online</a>
                     <a href="#">For Companies</a>
                     <a href="#">Sign In</a>
+                </div>
             </div>
 
             <div class="nav-mobile">
-                <img src="css/images/ic-on-campus.svg">
-                <img src="css/images/ic-online.svg">
-                <img src="css/images/ic-login.svg">
+                <div class="item">
+                    <a href="#">
+                    <img src="/css/images/ic-logo.svg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                    <img src="/css/images/ic-on-campus.svg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                    <img src="/css/images/ic-online.svg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                    <img src="/css/images/ic-login.svg">
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
 
+    <!-- banner -->
+
     <div class="banner">
 
         <div class="banner-main">
-            <img src="css/images/banner.jpg">
+            <img src="/css/images/banner.jpg">
         </div>
 
         <div class="banner-side">
             <h2>Learn something new everyday</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
             <button>Start here</button>
         </div>
         
     </div>
 
+    <!-- information -->
+
     <div class="information">
 
         <div class="info-main">
-            <img src="css/images/information-main.jpg">
+            <img src="/css/images/information-main.jpg">
             <h2>It doesn't hurt to keep practicing</h2>
             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur ad unde nisi tenetur odio eum error ullam eos. Corporis animi hic nostrum veniam repellat fugit commodi cum voluptate perferendis."</p>
-            <p>Emmanuel, Sr Strategist at Hiring.com</p>
+            <span>Emmanuel, Sr Strategist at Hiring.com</span>
         </div>
 
         <div class="info-side">
 
             <div class="info-items">
-                <img src="css/images/information-orientation.jpg">
-                <h4>Orientation date</h4>
-                <h5>Tue 10/11 & Wed 10/12: 8am-3pm</h5>
-                <a href="#">Read more</a>
+
+                <div class="info-items-left">
+                    <img src="/css/images/information-orientation.jpg">
+                </div>
+
+                <div class="info-mobile">
+                    <img src="/css/images/information-orientation-mobile.jpg">
+                </div>
+
+                <div class="info-items-right">
+                    <h4>Orientation date</h4>
+                    <h5>Tue 10/11 & Wed 10/12: 8am-3pm</h5>
+                    <a href="#">Read more</a>
+                </div>
+
             </div>
 
             <div class="info-items">
-                <img src="css/images/information-campus.jpg">
-                <h4>Our campus</h4>
-                <h5>Find which campus is close by you</h5>
-                <a href="#">Read more</a>
+
+                <div class="info-items-left">
+                    <img src="/css/images/information-campus.jpg">
+                </div>
+
+                <div class="info-mobile">
+                    <img src="/css/images/information-campus-mobile.jpg">
+                </div>
+
+                <div class="info-items-right">
+                    <h4>Our campus</h4>
+                    <h5>Find which campus is close by you</h5>
+                    <a href="#">Read more</a>
+                </div>
+                
             </div>
 
             <div class="info-items">
-                <img src="css/images/information-guest-lecture.jpg">
-                <h4>Our guest lecture</h4>
-                <h5>Join our keynote with Oliver Sack about music in medical treatment</h5>
-                <a href="#">Read more</a>
+
+                <div class="info-items-left">
+                    <img src="/css/images/information-guest-lecture.jpg">
+                </div>
+
+                <div class="info-mobile">
+                    <img src="/css/images/information-guest-lecture-mobile.jpg">
+                </div>
+
+                <div class="info-items-right">
+                    <h4>Our guest lecture</h4>
+                    <h5>Join our keynote with Oliver Sack about music in medical treatment</h5>
+                    <a href="#">Read more</a>
+                </div>
             </div>
 
     </div>
@@ -83,57 +144,97 @@
 
         <h2>Start Learning</h2>
 
+        <div class="course-all">
+
         <div class="course-items">
-            <img src="css/images/course-software.jpg">
-            <h4>Software Engineering</h4>
-            <p>COURSES</p>
-            <p>Web Development,Mobile Development,iOT,APIs</p>
+
+            <div class="course-image">
+                <img src="/css/images/course-software.jpg">
+            </div>
+
+            <div class="course-details">
+                    <h4>Software Engineering</h4>
+                    <p>COURSES</p>
+                    <p>Web Development,Mobile Development,iOT,APIs</p>
+            </div>
+            
         </div>
 
         <div class="course-items">
-            <img src="css/images/course-computer-art.jpg">
-            <h4>Computer art</h4>
-            <p>COURSES</p>
-            <p>Imaging & Design, Web Design, Motion Graphics &  Visual Effects, Computer Animation</p>
+            <div class="course-image">
+                <img src="/css/images/course-computer-art.jpg">
+            </div>  
+            <div class="course-details">
+                    <h4>Computer art</h4>
+                    <p>COURSES</p>
+                    <p>Imaging & Design, Web Design, Motion Graphics &  Visual Effects, Computer Animation</p>
+            </div>  
+            
         </div>
 
         <div class="course-items">
-            <img src="css/images/course-design.jpg">
-            <h4>Design</h4>
-            <p>COURSES</p>
-            <p>User Experience Design, Json, Research, Visual Design</p>
+
+            <div class="course-image">    
+                <img src="/css/images/course-design.jpg">
+            </div>
+
+            <div class="course-details">
+                    <h4>Design</h4>
+                    <p>COURSES</p>
+                    <p>User Experience Design, Json, Research, Visual Design</p>
+            </div>
+            
         </div>
     
         <div class="course-items">
-            <img src="css/images/course-data.jpg">
-            <h4>Data</h4>
-            <p>COURSES</p>
-            <p>Data Science, Big Data, SQL Data, Visualisation</p>
+            <div class="course-image">
+                <img src="/css/images/course-data.jpg">
+            </div>
+            <div class="course-details">
+                    <h4>Data</h4>
+                    <p>COURSES</p>
+                    <p>Data Science, Big Data, SQL Data, Visualisation</p>
+            </div>
+            
         </div>
 
         <div class="course-items">
-            <img src="css/images/course-business.jpg">
-            <h4>Business</h4>
-            <p>COURSES</p>
-            <p>Product Development, Business Development, Startup</p>
+            <div class="course-image">
+                <img src="/css/images/course-business.jpg">
+            </div>    
+            <div class="course-details">
+                    <h4>Business</h4>
+                    <p>COURSES</p>
+                    <p>Product Development, Business Development, Startup</p>
+            </div>
+            
         </div> 
         
         <div class="course-items">
-            <img src="css/images/course-marketing.jpg">
-            <h4>Marketing</h4>
-            <p>COURSES</p>
-            <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <div class="course-image">    
+                <img src="/css/images/course-marketing.jpg">
+            </div>
+            <div class="course-details">
+                    <h4>Marketing</h4>
+                    <p>COURSES</p>
+                    <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
+            
         </div>
-        
+
+    </div>
     </div>
 
     <div class="thesis">
 
         <h2>Thesis exhibit</h2>
 
+        <div class="thesis-data">
+
         <div class="thesis-main">
-            <video>
-                <source src="css/videos/thesis.mp4">
+            <video controls="true">
+                <source src="/css/videos/thesis.mp4" type="video/mp4">
+                    mp4 Not Supported
             </video>
 
             <h4>Reimagine urban</h4>
@@ -143,26 +244,39 @@
         <div class="thesis-side">
 
             <div class="thesis-items">
-                <img src="css/images/thesis-fisma.jpg">
-                <h4>Fisma:Deign and Prototype</h4>
-                <p>Designer showcase of new prototype product</p>
+                <div class="thesis-img">
+                    <img src="/css/images/thesis-fisma.jpg">
+                </div>
+                <div class="thesis-details">
+                    <h4>Fisma:Deign and Prototype</h4>
+                    <p>Designer showcase of new prototype product</p>
+                </div>
             </div>
 
             <div class="thesis-items">
-                <img src="css/images/thesis-now-and-then.jpg">
-                <h4>Now and then</h4>
-                <p>Research study about New York</p>
+                <div class="thesis-img">
+                    <img src="/css/images/thesis-now-and-then.jpg">
+                </div>
+                <div class="thesis-details">
+                    <h4>Now and then</h4>
+                    <p>Research study about New York</p>
+                </div>
             </div>
 
         </div>
-
+    </div>
     </div>
 
-    <footer class="copyright">
-        <span>&copy; 2016 Colmar Academy All rights reserved</span>
-        <span>Terms</span>
-        <span>Privacy</span>
+    <footer>
+        <div class="copyright">
+                <span >&copy; 2016 Colmar Academy.All rights reserved</span>
+        </div>
+        
+        <div class="others">
+            <span>Terms</span>
+            <span>Privacy</span>
+        </div>
     </footer>
-    
+
 </body>
 </html>
